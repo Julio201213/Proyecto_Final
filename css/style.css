@@ -1,0 +1,99 @@
+body {
+background-image: url("/img/fondo.jpg");
+width: 100%;
+}
+
+.logo {
+    background-color: rgb(250, 250, 250);
+    margin: 0px 0px 0px 0px ;
+}
+
+.form-group {
+    background-color: rgb(247, 247, 247);
+    width: 50%;
+    color: rgb(44, 230, 59);
+    position: relative;
+    left: 30%;
+}
+
+.contacto {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border: darkslategrey solid;
+}
+
+.whatsapp {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border: darkslategrey solid;
+}
+
+.gmail {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border: darkslategrey solid;
+}
+
+.ubicacion {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border: darkslategrey solid;
+    margin-bottom: 20px;
+}
+
+#gLogo {
+    width: 60px;
+}
+
+#wLogo {
+    width: 60px;
+}
+
+.justify-content-center {
+    
+    text-align: center;
+}
+
+.tituloLogo {
+font-size: 100px;
+font-family: 'Lobster', cursive;
+}
+
+.index {
+    font-family: 'Dancing Script', cursive;;
+}
+
+#encabezado {
+    background-image: url(/img/portada_ramiro.png);
+    background-size: contain;
+}
+
+h3 {
+    text-align: center;
+}
+
+#exposicion {
+    display: flex;
+    align-content: center;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    margin-left: 380px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+
