@@ -96,4 +96,65 @@ h3 {
 
 }
 
+#parrafosIndex {
+    margin: 150px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-radius: 40px;
+}
 
+#footer {
+    background-color: rgb(25, 0, 255);
+}
+
+#valorSalario {
+    width: 650px;
+    margin-bottom: 50px;
+    border: solid;
+    border-radius: 30px;
+    background-color: rgb(233, 232, 233);
+}
+
+#ingresoSalario {
+    width: 650px;
+    border: solid ;
+    background-color: rgb(241, 247, 193);
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+#seguridadSocial {
+margin-left: 150px;
+margin-right: 150px;
+background-color: white;
+}
+
+#seguridadSocial2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    }
+    
+    #datos {
+        margin-left: 150px;
+        margin-right: 150px;
+        background-color: white;
+        }
+
+        #datos2 {
+            margin-left: 150px;
+            margin-right: 150px;
+            background-color: white;
+            }
+        
+            #datos3 {
+                margin-left: 150px;
+                margin-right: 150px;
+                background-color: white;
+                }
+
+                #datos4 {
+                    margin-left: 450px;
+                    margin-right: 450px;
+                    background-color: white;
+                    }

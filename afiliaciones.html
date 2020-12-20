@@ -44,13 +44,13 @@
                     <a class="nav-link" href="exposicion.html">
                         <h2>Exposicion</h2>
                     </a>
-                </li><p></p>
+                </li>
             </ul>
         </div>
     </nav>
     <form>
-        <br><br>
-        <div class="form-row">
+        <br>
+        <div class="form-row" id="datos">
             <div class="col">
                 <label for="nombre">
                     <h3>Nombre Completo</h3>
@@ -70,7 +70,7 @@
                 </small>
             </div>
         </div>
-        <div class="form-row">
+        <div class="form-row" id="datos2">
             <div class="col">
                 <label for="Email">
                     <h3>Correo Electronico</h3>
@@ -90,7 +90,7 @@
                 </small>
             </div>
         </div>
-        <div class="form-row">
+        <div class="form-row" id="datos3">
             <div class="col">
                 <label for="Fecha">
                     <h3>Fecha de Nacimiento</h3>
@@ -111,7 +111,7 @@
                 </small>
             </div>
         </div>
-        <div class="form-row">
+        <div class="form-row" id="datos4">
             <div class="col">
                 <label for="ciudad">
                     <h3>Ciudad</h3>
@@ -153,7 +153,7 @@
             </thead>
         </table>
     </div>
-    <div class="row">
+    <div class="row" id="seguridadSocial">
     <div class="col">
         <label for="Eps">
             <h3>Eps</h3>
@@ -190,7 +190,7 @@
         </datalist>
     </div>
     </div>
-<div class="form-row">
+<div class="form-row" id="seguridadSocial2">
     <div class="col">
         <label for="arl">
             <h3>ARL</h3>
@@ -230,7 +230,7 @@
     </datalist>
     </div>
    </div>
-    <div class="container py-2 text-center" id="formulario">
+    <div class="container py-2 text-center" id="ingresoSalario">
         <div class="col">
             <label for="salario">
                 <h3>Salario</h3>
@@ -256,6 +256,11 @@
     <label for="" class="campo"><h3 style="color: red;">Total a Pagar</h3></label>
     <input type="text" id="total" class="form-control">
 </div>
+<div class="container py-2 text-center" id="formulario">
+    <button id="boton" class="btn btn-success py-2 " type="reset" onclick='javascript:window.print()'>Imprimir Formulario</button>
+</div>
+<br>
+<footer id="footer"><h4 style="color: white;">Julio Cesar Lopez Fernandez:  Creador de la Pagina Web</h4></footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
